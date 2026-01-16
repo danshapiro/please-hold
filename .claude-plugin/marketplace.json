@@ -1,0 +1,13 @@
+{
+  "name": "please-hold-marketplace",
+  "owner": {
+    "name": "Dan Shapiro"
+  },
+  "plugins": [
+    {
+      "name": "please-hold",
+      "description": "Long waits and delayed execution for Claude Code",
+      "source": "./"
+    }
+  ]
+}
