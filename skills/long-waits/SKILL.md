@@ -13,9 +13,9 @@ Chain sequential background sleeps to wait for extended periods. Bash has a 10-m
 
 ## When to Use
 
-- "Wait 2 hours then do X"
-- "Remind me at 3pm"
-- "Do this after the file contains 'ready'"
+- "Wait until the checkin that fixes the widgets hits main, then rebase onto it, merge, and deploy"
+- "Implement the spec after my tokens reset at 1am"
+- "Run the live tests when the new version arrives on staging"
 - Any delay >10 minutes or condition that takes indefinite time
 
 ## Implementation

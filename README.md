@@ -8,10 +8,9 @@ Claude Code's Bash tool has a 10-minute (600,000ms) maximum timeout. This skill 
 
 ## Use Cases
 
-- "Wait 4 hours then remind me to check the deployment"
-- "Remind me at 3pm to call the client"
-- "Do this after the file contains 'ready'"
-- "Do this after staging has two new versions"
+- "Wait until the checkin that fixes the widgets hits main, then rebase onto it, merge, and deploy"
+- "Implement the spec after my tokens reset at 1am"
+- "Run the live tests when the new version arrives on staging"
 
 ## Installation
 
@@ -25,9 +24,9 @@ Claude Code's Bash tool has a 10-minute (600,000ms) maximum timeout. This skill 
 The skill is automatically invoked when you ask Claude to wait longer than 10 minutes or do something after a condition becomes true.
 
 Examples:
-- "Wait 2 hours then run the build"
-- "At 5pm, remind me to submit the report"
-- "After the CI passes, deploy to staging"
+- "Wait until the checkin that fixes the widgets hits main, then rebase onto it, merge, and deploy"
+- "Implement the spec after my tokens reset at 1am"
+- "Run the live tests when the new version arrives on staging"
 
 ## How It Works
 
